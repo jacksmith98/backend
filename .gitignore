@@ -1,0 +1,68 @@
+target/
+#!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.jpb
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+.DS_Store
+
+### property files ###
+#application.properties
+#/src/main/resources/application.properties
+#/src/main/resources/application-dev.properties
+#/src/test/resources/application.properties
+
+### Docker local cache ###
+libcache/
+
+.DS_Storeapplication.properties
+.eslintcache
+
+
+/.checkstyle
+
+### Serverless
+.serverless
+
+### Terraform
+infra-as-code/staging/**/**/.terraform*
+infra-as-code/dev/**/**/.terraform*
+infra-as-code/dev-v2/**/**/.terraform*
+infra-as-code/staging/**/**/.terraform*
+infra-as-code/development/**/**/.terraform*
+infra-as-code/production/**/**/.terraform*
+infra-as-code/.scannerwork
+terraform.tfvars
+
+## Node
+node_modules/
+billing-platform/.jqwik-database
+
+#apigateway query param file
+infra-as-code/common/query-params.tfvars
